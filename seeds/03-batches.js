@@ -36,6 +36,14 @@ exports.seed = function(knex, Promise) {
           'tank': 'F3',
           'beer_id': 'white-rascal'
         }),
+        knex('batches').insert({
+          'id': 5,
+          'date': '02-29-16',
+          'time': '10:14:00',
+          'quote': 'SHE TURNED ME INTO A NEWT!',
+          'tank': 'B4',
+          'beer_id': 'joe-s-pils'
+        }),
       ]);
   });
 });

@@ -23,6 +23,13 @@ exports.seed = function(knex, Promise) {
           'tank': 'FV32',
           'beer_id': 'ipa'
         }),
+        knex('batches').insert({
+          'date': '05-21-16',
+          'time': '11:25:00',
+          'quote': 'YOU CAN\'T TAKE THE SKY FROM ME',
+          'tank': 'F3',
+          'beer_id': 'white-rascal'
+        }),
       ]);
   });
 };

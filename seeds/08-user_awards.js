@@ -29,6 +29,10 @@ exports.seed = function(knex, Promise) {
           user_id: 1,
           award_id: 7,
         }),
+        knex('user_awards').insert({
+          user_id: 3,
+          award_id: 2,
+        }),
       ]);
   });
 };

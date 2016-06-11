@@ -41,7 +41,7 @@ exports.seed = function(knex, Promise) {
                         knex('title').insert({
                             id: 8,
                             name: 'Barrel Professor',
-                            description: 'Barrel taught by:'
+                            description: 'Barrel graded by:'
                         }),
                         knex('title').insert({
                             id: 9,

@@ -9,6 +9,7 @@ exports.seed = function(knex, Promise) {
           birthday: '04-26-1991',
           password: '$2a$08$5v6LS.nqvjC1gjY3cqeph.KwlR0cjkCbhyr7I8oR7CLqyJ0fpyALC',
           email: 'dlinch33@gmail.com',
+          image_url: '../assets/derik.jpg',
         }),
         knex('users').insert({
           id: 2,
@@ -16,7 +17,8 @@ exports.seed = function(knex, Promise) {
           last_name: 'Kopelevich',
           birthday: '04-26-1980',
           password: '$2a$08$5v6LS.nqvjC1gjY3cqeph.KwlR0cjkCbhyr7I8oR7CLqyJ0fpyALC',
-          email: 'dlinch33@gmail.com',
+          email: 'ekopelevich@gmail.com',
+          image_url: '../assets/elana.jpg',
         }),
         knex('users').insert({
           id: 3,
@@ -25,6 +27,7 @@ exports.seed = function(knex, Promise) {
           birthday: '05-21-1990',
           password: '$2a$08$5v6LS.nqvjC1gjY3cqeph.KwlR0cjkCbhyr7I8oR7CLqyJ0fpyALC',
           email: 'hello@cjr.co.de',
+          image_url: '../assets/cj.jpg',
         }),
         knex('users').insert({
           id: 4,
@@ -33,6 +36,7 @@ exports.seed = function(knex, Promise) {
           birthday: '07-04-1962',
           password: '$2a$08$5v6LS.nqvjC1gjY3cqeph.KwlR0cjkCbhyr7I8oR7CLqyJ0fpyALC',
           email: 'roberto@ortega.com',
+          image_url: '../assets/berto.jpg',
         }),
       ]);
     })

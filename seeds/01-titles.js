@@ -5,7 +5,8 @@ exports.seed = function(knex, Promise) {
                     return Promise.all([
                         knex('title').insert({
                             id: 1,
-                            name: 'Adam & Larry'
+                            name: 'Adam & Larry',
+                            description: 'Founded by:'
                         }),
                         knex('title').insert({
                             id: 2,
@@ -35,7 +36,7 @@ exports.seed = function(knex, Promise) {
                         knex('title').insert({
                             id: 7,
                             name: 'Special Projects Brewer',
-                            description: 'Brewed especialy by:'
+                            description: 'Brewed especially by:'
                         }),
                         knex('title').insert({
                             id: 8,

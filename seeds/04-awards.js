@@ -1,5 +1,5 @@
 exports.seed = function(knex, Promise) {
-  return knex.raw('ALTER SEQUENCE awards_id_seq restart;').then(function () {
+  return knex.raw('ALTER SEQUENCE awards_id_seq restart with 8;').then(function () {
     return knex('awards').del().then(function () {
       return Promise.all([
         knex('awards').insert({

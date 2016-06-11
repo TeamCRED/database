@@ -6,6 +6,10 @@ exports.seed = function(knex, Promise) {
           batch_id: 1,
         }),
         knex('user_batches').insert({
+          user_id: 1,
+          batch_id: 3,
+        }),
+        knex('user_batches').insert({
           user_id: 2,
           batch_id: 3,
         }),

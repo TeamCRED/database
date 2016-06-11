@@ -1,9 +1,6 @@
 exports.seed = function(knex, Promise) {
-  // Deletes ALL existing entries
   return knex.raw('ALTER SEQUENCE employees_id_seq restart;').then(function() {
-
     return knex('employees').del().then(function(){
-    // Inserts seed entries
     return Promise.all([
       knex('employees').insert({
         first_name: 'Adam',

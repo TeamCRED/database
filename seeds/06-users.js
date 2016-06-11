@@ -1,5 +1,5 @@
 exports.seed = function(knex, Promise) {
-  return knex.raw('ALTER SEQUENCE users_id_seq restart with 3;').then(function () {
+  return knex.raw('ALTER SEQUENCE users_id_seq restart with 5;').then(function () {
     return knex('users').del().then(function () {
       return Promise.all([
         knex('users').insert({
@@ -17,6 +17,22 @@ exports.seed = function(knex, Promise) {
           birthday: '04-26-1980',
           password: '$2a$08$5v6LS.nqvjC1gjY3cqeph.KwlR0cjkCbhyr7I8oR7CLqyJ0fpyALC',
           email: 'dlinch33@gmail.com',
+        }),
+        knex('users').insert({
+          id: 3,
+          first_name: 'CJ',
+          last_name: 'R',
+          birthday: '05-21-1990',
+          password: '$2a$08$5v6LS.nqvjC1gjY3cqeph.KwlR0cjkCbhyr7I8oR7CLqyJ0fpyALC',
+          email: 'hello@cjr.co.de',
+        }),
+        knex('users').insert({
+          id: 4,
+          first_name: 'Roberto',
+          last_name: 'Ortega',
+          birthday: '07-04-1962',
+          password: '$2a$08$5v6LS.nqvjC1gjY3cqeph.KwlR0cjkCbhyr7I8oR7CLqyJ0fpyALC',
+          email: 'roberto@ortega.com',
         }),
       ]);
     })

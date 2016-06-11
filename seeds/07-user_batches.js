@@ -11,6 +11,10 @@ exports.seed = function(knex, Promise) {
         }),
         knex('user_batches').insert({
           user_id: 2,
+          batch_id: 1,
+        }),
+        knex('user_batches').insert({
+          user_id: 2,
           batch_id: 3,
         }),
         knex('user_batches').insert({
@@ -21,6 +25,18 @@ exports.seed = function(knex, Promise) {
           user_id: 1,
           batch_id: 4,
         }),
+        knex('user_batches').insert({
+          user_id: 3,
+          batch_id: 2,
+        }),
+        knex('user_batches').insert({
+          user_id: 3,
+          batch_id: 4,
+        }),
+        knex('user_batches').insert({
+          user_id: 4,
+          batch_id: 2,
+        })
       ]);
   });
 };

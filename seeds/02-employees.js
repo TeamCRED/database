@@ -1,5 +1,5 @@
 exports.seed = function(knex, Promise) {
-  return knex.raw('ALTER SEQUENCE employees_id_seq restart;').then(function() {
+  return knex.raw('ALTER SEQUENCE employees_id_seq restart with 40;').then(function() {
     return knex('employees').del().then(function(){
     return Promise.all([
       knex('employees').insert({

@@ -8,6 +8,7 @@ exports.seed = function(knex, Promise) {
         title_id: 1,
         bio: "In the early 90s, 27-year-old Adam Avery had a quarter-life crisis. He was passionate about homebrewing but he didn’t know what he wanted to do professionally. At the same time, his father, Larry, was retiring and considering opening a small business, so Adam talked him into using all of his retirement money to open this brewery. Thankfully (for our sake and for Larry's), Adam was a great brewer with a knack for creating challenging brews. Adam, co-founder and CEO of Avery Brewing Company, now comes to work in his dream brewery.",
         factoid: 'This guy started it all.',
+        image_url: "https://d1h6bqmdexfe1t.cloudfront.net/uploads/founder/image/5/desktop2x_1454200743_Crew-AdamAndLarry.jpg",
         }),
       knex('employees').insert({
         first_name: 'Larry',
@@ -15,6 +16,7 @@ exports.seed = function(knex, Promise) {
         title_id: 1,
         bio: "In the early 90s, 27-year-old Adam Avery had a quarter-life crisis. He was passionate about homebrewing but he didn’t know what he wanted to do professionally. At the same time, his father, Larry, was retiring and considering opening a small business, so Adam talked him into using all of his retirement money to open this brewery. Thankfully (for our sake and for Larry's), Adam was a great brewer with a knack for creating challenging brews. Larry regularly stops by for lunch and a walk around the Twin Lakes as he enjoys his retirement.",
         factoid: 'He sired the man himself.',
+        image_url: "https://d1h6bqmdexfe1t.cloudfront.net/uploads/founder/image/5/desktop2x_1454200743_Crew-AdamAndLarry.jpg",
         }),
       knex('employees').insert({
         first_name: 'Fred',
@@ -22,6 +24,7 @@ exports.seed = function(knex, Promise) {
         title_id: 22,
         bio: '',
         factoid: '',
+        image_url: "https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/18/desktop2x_1454200756_Fred-Rizzo.jpg",
         }),
       knex('employees').insert({
         first_name: 'Andrew',
@@ -29,6 +32,7 @@ exports.seed = function(knex, Promise) {
         title_id: 2,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/15/desktop2x_1454436989_Andy_Parker.JPG',
         }),
       knex('employees').insert({
         first_name: 'Riley',
@@ -36,6 +40,7 @@ exports.seed = function(knex, Promise) {
         title_id: 3,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/22/desktop2x_1461609560_Riley-Finnigan.jpg',
         }),
       knex('employees').insert({
         first_name: 'Thoma',
@@ -43,6 +48,7 @@ exports.seed = function(knex, Promise) {
         title_id: 4,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/24/desktop2x_1454200760_Thoma-Ledder.jpg',
         }),
       knex('employees').insert({
         first_name: 'Josh',
@@ -50,6 +56,7 @@ exports.seed = function(knex, Promise) {
         title_id: 5,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/19/desktop2x_1454200757_Josh-Rapp.jpg',
         }),
       knex('employees').insert({
         first_name: 'Breanna',
@@ -57,6 +64,7 @@ exports.seed = function(knex, Promise) {
         title_id: 6,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/16/desktop2x_1455580300_Bre-Kennedy.jpg',
         }),
       knex('employees').insert({
         first_name: 'Dan',
@@ -64,6 +72,7 @@ exports.seed = function(knex, Promise) {
         title_id: 6,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/17/desktop2x_1454200755_Dan-Swansinger.jpg',
         }),
       knex('employees').insert({
         first_name: 'Leigh',
@@ -71,6 +80,7 @@ exports.seed = function(knex, Promise) {
         title_id: 7,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/20/desktop2x_1454200758_Leigh-Audin.jpg',
         }),
       knex('employees').insert({
         first_name: 'Mark',
@@ -78,6 +88,7 @@ exports.seed = function(knex, Promise) {
         title_id: 6,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/21/desktop2x_1454437092_Mark_Camilleri.JPG',
         }),
       knex('employees').insert({
         first_name: 'Ryan',
@@ -85,6 +96,7 @@ exports.seed = function(knex, Promise) {
         title_id: 6,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/23/desktop2x_1454200760_Ryan-Pasic.jpg',
         }),
       knex('employees').insert({
         first_name: 'Travis',
@@ -92,6 +104,7 @@ exports.seed = function(knex, Promise) {
         title_id: 8,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/53/desktop2x_1454200786_Travis-Rupp.jpg',
         }),
       knex('employees').insert({
         first_name: 'John',
@@ -99,6 +112,7 @@ exports.seed = function(knex, Promise) {
         title_id: 9,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/28/desktop2x_1454200765_John-Olson.jpg',
         }),
       knex('employees').insert({
         first_name: 'Aaron',
@@ -106,6 +120,7 @@ exports.seed = function(knex, Promise) {
         title_id: 10,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/25/desktop2x_1454437140_Aaron_Butzen.JPG',
         }),
       knex('employees').insert({
         first_name: 'Chris',
@@ -113,6 +128,7 @@ exports.seed = function(knex, Promise) {
         title_id: 11,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/26/desktop2x_1454437229_Chris_Cote.JPG',
         }),
       knex('employees').insert({
         first_name: 'Jon',
@@ -120,6 +136,7 @@ exports.seed = function(knex, Promise) {
         title_id: 11,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/48/desktop2x_1454200783_Jon-Greene.jpg',
         }),
       knex('employees').insert({
         first_name: 'Paulie',
@@ -127,6 +144,7 @@ exports.seed = function(knex, Promise) {
         title_id: 11,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/30/desktop2x_1454200767_placeholder.jpg',
         }),
       knex('employees').insert({
         first_name: 'Aaron',
@@ -134,6 +152,7 @@ exports.seed = function(knex, Promise) {
         title_id: 11,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/37/desktop2x_1454437530_Aaron_Dickinson.JPG',
         }),
       knex('employees').insert({
         first_name: 'Cary',
@@ -141,6 +160,7 @@ exports.seed = function(knex, Promise) {
         title_id: 12,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/41/desktop2x_1454200779_Cary-Clemente.jpg',
         }),
       knex('employees').insert({
         first_name: 'Chris',
@@ -148,6 +168,7 @@ exports.seed = function(knex, Promise) {
         title_id: 13,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/42/desktop2x_1454200780_Chris-Ash.jpg',
         }),
       knex('employees').insert({
         first_name: 'Carl',
@@ -155,6 +176,7 @@ exports.seed = function(knex, Promise) {
         title_id: 14,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/40/desktop2x_1454200778_Carl-McCowen.jpg',
         }),
       knex('employees').insert({
         first_name: 'Laura',
@@ -162,6 +184,7 @@ exports.seed = function(knex, Promise) {
         title_id: 14,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/49/desktop2x_1454200784_Laura-Vaznelis.jpg',
         }),
       knex('employees').insert({
         first_name: 'Jake',
@@ -169,6 +192,7 @@ exports.seed = function(knex, Promise) {
         title_id: 15,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/46/desktop2x_1454437655_Jake_Atchison.JPG',
         }),
       knex('employees').insert({
         first_name: 'Devin',
@@ -176,6 +200,7 @@ exports.seed = function(knex, Promise) {
         title_id: 15,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/45/desktop2x_1454437608_Devin_Collins.JPG',
         }),
       knex('employees').insert({
         first_name: 'Ryan',
@@ -183,6 +208,7 @@ exports.seed = function(knex, Promise) {
         title_id: 15,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/51/desktop2x_1454200785_Ryan-Fulkerson.jpg',
         }),
       knex('employees').insert({
         first_name: 'John',
@@ -190,6 +216,7 @@ exports.seed = function(knex, Promise) {
         title_id: 15,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/138/desktop2x_1454200860_John-Hauser.jpg',
         }),
       knex('employees').insert({
         first_name: 'Chris',
@@ -197,6 +224,7 @@ exports.seed = function(knex, Promise) {
         title_id: 15,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/43/desktop2x_1454200780_Chris-Henderson.jpg',
         }),
       knex('employees').insert({
         first_name: 'Brett',
@@ -204,6 +232,7 @@ exports.seed = function(knex, Promise) {
         title_id: 15,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/39/desktop2x_1454200776_Brett-Hunt.jpg',
         }),
       knex('employees').insert({
         first_name: 'Tony',
@@ -211,6 +240,7 @@ exports.seed = function(knex, Promise) {
         title_id: 15,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/52/desktop2x_1454437698_Tony_LeBlanc.JPG',
         }),
       knex('employees').insert({
         first_name: 'John',
@@ -218,6 +248,7 @@ exports.seed = function(knex, Promise) {
         title_id: 15,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/47/desktop2x_1454200783_John-Wallace.jpg',
         }),
       knex('employees').insert({
         first_name: 'Dani',
@@ -225,6 +256,7 @@ exports.seed = function(knex, Promise) {
         title_id: 15,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/44/desktop2x_1455580357_Dani-Windholz.jpg',
         }),
       knex('employees').insert({
         first_name: 'Dan',
@@ -232,6 +264,7 @@ exports.seed = function(knex, Promise) {
         title_id: 16,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/59/desktop2x_1454200789_Dan-Driscoll.jpg',
         }),
       knex('employees').insert({
         first_name: 'Ashley',
@@ -239,6 +272,7 @@ exports.seed = function(knex, Promise) {
         title_id: 17,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/58/desktop2x_1454200789_Ashley-Luscan.jpg',
         }),
       knex('employees').insert({
         first_name: 'Lauren',
@@ -246,6 +280,7 @@ exports.seed = function(knex, Promise) {
         title_id: 18,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/62/desktop2x_1454200793_Lauren-Darlington.jpg',
         }),
       knex('employees').insert({
         first_name: 'Evan',
@@ -253,6 +288,7 @@ exports.seed = function(knex, Promise) {
         title_id: 19,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/90/desktop2x_1454200814_Evan-Turner.jpg',
         }),
       knex('employees').insert({
         first_name: 'Nick',
@@ -260,6 +296,7 @@ exports.seed = function(knex, Promise) {
         title_id: 20,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/93/desktop2x_1454200816_Nick-Ottow.jpg',
         }),
       knex('employees').insert({
         first_name: 'Mike',
@@ -267,6 +304,7 @@ exports.seed = function(knex, Promise) {
         title_id: 20,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/92/desktop2x_1454200815_Mike-Bernard.jpg',
         }),
       knex('employees').insert({
         first_name: 'James',
@@ -274,6 +312,15 @@ exports.seed = function(knex, Promise) {
         title_id: 21,
         bio: '',
         factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/91/desktop2x_1454439070_James_Traitz.JPG',
+        }),
+      knex('employees').insert({
+        first_name: 'Blake',
+        last_name: 'Matzek',
+        title_id: 20,
+        bio: '',
+        factoid: '',
+        image_url: 'https://d1h6bqmdexfe1t.cloudfront.net/uploads/employee/image/89/desktop2x_1454200812_Blake-Matzek.jpg',
         }),
       ]);
     });

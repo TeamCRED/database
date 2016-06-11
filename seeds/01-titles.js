@@ -9,87 +9,108 @@ exports.seed = function(knex, Promise) {
                         }),
                         knex('title').insert({
                             id: 2,
-                            name: 'Chief Barrel Herder'
+                            name: 'Chief Barrel Herder',
+                            description: 'Barrel herded by:'
                         }),
                         knex('title').insert({
                             id: 3,
-                            name: 'Brewhouse Manager'
+                            name: 'Brewhouse Manager',
+                            description: 'Brewhouse managed by:'
                         }),
                         knex('title').insert({
                             id: 4,
-                            name: 'Barrel Romancer'
+                            name: 'Barrel Romancer',
+                            description: 'Barrel romanaced by:'
                         }),
                         knex('title').insert({
                             id: 5,
-                            name: 'Senior Brewer'
+                            name: 'Senior Brewer',
+                            description: 'Brewed by:'
                         }),
                         knex('title').insert({
                             id: 6,
-                            name: 'Brewer'
+                            name: 'Brewer',
+                            description: 'Brewed by:'
                         }),
                         knex('title').insert({
                             id: 7,
-                            name: 'Special Projects Brewer'
+                            name: 'Special Projects Brewer',
+                            description: 'Brewed especialy by:'
                         }),
                         knex('title').insert({
                             id: 8,
-                            name: 'Barrel Professor'
+                            name: 'Barrel Professor',
+                            description: 'Barrel taught by:'
                         }),
                         knex('title').insert({
                             id: 9,
-                            name: 'Cellar Manager'
+                            name: 'Cellar Manager',
+                            description: 'Cellar managed by:'
                         }),
                         knex('title').insert({
                             id: 10,
-                            name: 'Cellar Assistant Manager'
+                            name: 'Cellar Assistant Manager',
+                            description: 'Cellar managed by:'
                         }),
                         knex('title').insert({
                             id: 11,
-                            name: 'Cellar'
+                            name: 'Cellar',
+                            description: 'In the cellar with:'
                         }),
                         knex('title').insert({
                             id: 12,
-                            name: 'Packaging Manager'
+                            name: 'Packaging Manager',
+                            description: 'Packaged by:'
                         }),
                         knex('title').insert({
                             id: 13,
-                            name: 'Scheduling'
+                            name: 'Scheduling',
+                            description: 'Scheduled by:'
                         }),
                         knex('title').insert({
                             id: 14,
-                            name: 'Packaging Lead'
+                            name: 'Packaging Lead',
+                            description: 'Packaged by:'
                         }),
                         knex('title').insert({
                             id: 15,
-                            name: 'Packaging'
+                            name: 'Packaging',
+                            description: 'Packaged by:'
                         }),
                         knex('title').insert({
                             id: 16,
-                            name: 'Yeast Manager'
+                            name: 'Yeast Manager',
+                            description: 'Yeast managed by:'
                         }),
                         knex('title').insert({
                             id: 17,
-                            name: 'Lab Technician'
+                            name: 'Lab Technician',
+                            description: 'Measurements taken by:'
                         }),
                         knex('title').insert({
                             id: 18,
-                            name: 'QA Packaging Technician'
+                            name: 'QA Packaging Technician',
+                            description: 'Quality packaging assured by:'
                         }),
                         knex('title').insert({
                             id: 19,
-                            name: 'Warehouse Manager'
+                            name: 'Warehouse Manager',
+                            description: 'Warehouse managed by:'
                         }),
                         knex('title').insert({
                             id: 20,
-                            name: 'Warehouse Assistant'
+                            name: 'Warehouse Assistant',
+                            description: 'Warehouse managed by:'
                         }),
                         knex('title').insert({
                             id: 21,
-                            name: 'Warehouse Ninja'
+                            name: 'Warehouse Ninja',
+                            description: 'Warehouse managed by:'
                         }),
                         knex('title').insert({
                             id: 22,
-                            name: 'Head Brewer'
+                            name: 'Head Brewer',
+                            description: 'Brewed by:'
                         }),
                     ]);
                 })

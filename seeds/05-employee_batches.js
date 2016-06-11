@@ -49,6 +49,18 @@ exports.seed = function(knex, Promise) {
           employee_id: 7,
           batch_id: 4,
         }),
+        knex('employee_batches').insert({
+          employee_id: 10,
+          batch_id: 5,
+        }),
+        knex('employee_batches').insert({
+          employee_id: 34,
+          batch_id: 5,
+        }),
+        knex('employee_batches').insert({
+          employee_id: 7,
+          batch_id: 5,
+        }),
       ]);
   });
 };

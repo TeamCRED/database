@@ -1,0 +1,24 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamCRED/database.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TeamCRED/database/issues"
+  },
+  "homepage": "https://github.com/TeamCRED/database#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "knex": "^0.11.5",
+    "pg": "^5.1.0"
+  }
+}

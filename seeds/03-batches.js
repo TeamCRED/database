@@ -1,5 +1,7 @@
 
 exports.seed = function(knex, Promise) {
+  return knex.raw('ALTER SEQUENCE batches_id_seq restart;').then(function () {
+
   return knex('batches').del().then(function () {
     return Promise.all([
         knex('batches').insert({
@@ -36,4 +38,5 @@ exports.seed = function(knex, Promise) {
         }),
       ]);
   });
+});
 };

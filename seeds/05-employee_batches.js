@@ -14,15 +14,15 @@ exports.seed = function(knex, Promise) {
           batch_id: 1,
         }),
         knex('employee_batches').insert({
-          employee_id: 16,
-          batch_id: 2,
-        }),
-        knex('employee_batches').insert({
           employee_id: 15,
           batch_id: 2,
         }),
         knex('employee_batches').insert({
-          employee_id: 35,
+          employee_id: 10,
+          batch_id: 2,
+        }),
+        knex('employee_batches').insert({
+          employee_id: 11,
           batch_id: 2,
         }),
         knex('employee_batches').insert({
@@ -50,11 +50,11 @@ exports.seed = function(knex, Promise) {
           batch_id: 4,
         }),
         knex('employee_batches').insert({
-          employee_id: 10,
+          employee_id: 18,
           batch_id: 5,
         }),
         knex('employee_batches').insert({
-          employee_id: 34,
+          employee_id: 5,
           batch_id: 5,
         }),
         knex('employee_batches').insert({
